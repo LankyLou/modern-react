@@ -1,0 +1,24 @@
+---
+"extends":
+  - "eslint-config-airbnb"
+  - "prettier"
+
+"rules":
+  "react/prefer-stateless-function": "off"
+  "react/jsx-filename-extension": "off"
+  "react/no-multi-comp": "off"
+  "prettier/prettier": "error"
+
+"plugins":
+  - "prettier"
+
+"env":
+  "browser": true,
+  "node": true
+"globals":
+  "afterEach": true,
+  "describe": true,
+  "expect": true,
+  "it": true,
+  "jest": true,
+  "test": true
